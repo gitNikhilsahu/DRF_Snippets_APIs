@@ -19,6 +19,7 @@ from .views import HomeView
 
 urlpatterns = [
     path('', HomeView),
+    path('DRF/', include('DRF.urls')),
     path('examples/', include('ExamplesApp.urls')),
     path('admin/', admin.site.urls),
 ]

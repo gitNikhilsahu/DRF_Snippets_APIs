@@ -5,6 +5,8 @@ from . import views
 # from django.utils.decorators import method_decorator
 
 urlpatterns = [
+    path('', views.Examples_App_Home_View),
+
     path('http_response/', views.http_response_CBV.as_view()),
     path('json_response/', views.json_response_CBV.as_view()),
     path('view_all_product/', views.view_all_product_CBV.as_view()),

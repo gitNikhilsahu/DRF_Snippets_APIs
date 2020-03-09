@@ -14,6 +14,9 @@ from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 
 
+def Examples_App_Home_View(request):
+    return render(request, 'ExamplesApp/ExamplesAppHomePage.html')
+
 class http_response_CBV(View):
     def get(self, request):
         
