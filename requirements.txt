@@ -1,6 +1,7 @@
-asgiref==3.2.3
-Django==3.0.4
+-i https://pypi.org/simple/
+asgiref==3.2.7
+django==3.0.7
 djangorestframework==3.11.0
-Markdown==3.2.1
-pytz==2019.3
+markdown==3.2.1
+pytz==2020.1
 sqlparse==0.3.1
